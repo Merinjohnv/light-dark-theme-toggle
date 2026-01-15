@@ -1,0 +1,52 @@
+:root{
+    --bg: #ffffff;
+    --text: #le293b;
+    --card-bg: #flf5f9;
+    --accent: #7c3aed;
+}
+html[data-theme="dark"] {
+    --bg: #002252;
+    --text: #e2e8f0;
+    --card-bg: #le293b;
+    --accent: #c084fc;
+}
+html,body{
+    height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, system-ui, sans-serif;
+    margin: 0;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card{
+    width: min(700px, 92%);
+    margin: 40px auto;
+    background: var(--card-bg);
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 15);
+    transition: background 0.3s ease;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-btn{
+    background: var(--accent);
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(124, 58, 237, 0.4);
+    transition: transform 0.2s ease;
+}
+.theme-btn:hover{
+    transform: scale(1.1);
+}
