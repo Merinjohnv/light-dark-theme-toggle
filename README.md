@@ -44,6 +44,12 @@ light-dark-theme-toggle/
 
 ---
 
+## 🚀 Live Demo
+
+👉 https://merinjohnv.github.io/light-dark-theme-toggle/
+
+---
+
 ## 📌 Learning Outcome
 
 This project helped me understand:
