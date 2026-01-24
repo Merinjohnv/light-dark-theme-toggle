@@ -1,22 +1,22 @@
-# 🌗 Light / Dark Mode Toggle
+# Light / Dark Mode Toggle
 
 A simple and modern Light/Dark mode theme toggle built using **HTML, CSS, and JavaScript**.  
 With a single click, users can switch between light and dark themes, and their preference is saved using **LocalStorage** so it persists even after refreshing the page.
 
 ---
 
-## ✨ Features
+## Features
 
 - One-click theme toggle (Light ↔ Dark)
 - Smooth color transitions
-- Theme icon change (🌙 / ☀️)
+- Theme icon change
 - Persistent theme using LocalStorage
 - Clean, minimal, and responsive UI
 - Uses CSS variables for global theme management
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (CSS Variables)
@@ -24,17 +24,7 @@ With a single click, users can switch between light and dark themes, and their p
 
 ---
 
-## 📂 Project Structure
-light-dark-theme-toggle/
-│
-├── index.html
-├── style.css
-└── script.js
-
-
----
-
-## 🧠 How It Works
+## How It Works
 
 - CSS variables define all theme colors.
 - A `data-theme` attribute (`light` or `dark`) is applied to the `<html>` element.
@@ -44,16 +34,6 @@ light-dark-theme-toggle/
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 👉 https://merinjohnv.github.io/light-dark-theme-toggle/
-
----
-
-## 📌 Learning Outcome
-
-This project helped me understand:
-- CSS variables and theme management
-- DOM manipulation in JavaScript
-- Using LocalStorage to persist user preferences
-- Building clean UI interactions 
